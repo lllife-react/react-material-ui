@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://fb.me/react-0.14.0.min.js"></script>
+        <script src="https://fb.me/react-dom-0.14.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.24/system-csp-production.js"></script>
+        <!--
+        <script src="/build/system.js"></script>
+        -->
+    </head>
+
+    <body>
+        <div id="react">Loading...</div>
+        <script>
+            System.config({ globalEvaluationScope: false });
+            System.baseURL = "/build";
+        </script>
+        <script src="/build/test.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "es5",
+    "outDir": "build",
+    "module": "system",
+    "jsx": "react"
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "files": [
+    "src/js/test.tsx"
+  ],
+  "filesGlob": [
+    "src/js/**/*.tsx"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
