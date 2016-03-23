@@ -9,16 +9,17 @@
     "module": "system",
     "jsx": "react"
   },
-  "compileOnSave": false,
+  "compileOnSave": true,
   "exclude": [
     "node_modules",
     "wwwroot"
   ],
   "files": [
-    "src/js/test.tsx"
+    "src/ts-test.tsx"
   ],
   "filesGlob": [
-    "src/js/**/*.tsx"
+    "*.tsx",
+    "src/**/*.tsx"
   ],
   "atom": {
     "rewriteTsconfig": true

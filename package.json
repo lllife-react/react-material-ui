@@ -4,7 +4,6 @@
   "description": "tsc --module system --outFile test.js --jsx react test.tsx",
   "main": "index.js",
   "dependencies": {
-    "material-ui": "^0.15.0-alpha.2",
     "npm-watch": "^0.1.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
@@ -15,5 +14,16 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc"
+  },
+  "jspm": {
+    "dependencies": {
+      "material-ui": "npm:material-ui@^0.15.0-alpha.2",
+      "react": "npm:react@^0.14.7",
+      "react-dom": "npm:react-dom@^0.14.7",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.2"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
   }
 }
